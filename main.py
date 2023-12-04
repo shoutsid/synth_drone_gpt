@@ -610,7 +610,7 @@ def do_finetine(training_file):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python fine_tune_function_calling.py <command>")
+        print("Usage: python main.py <command>")
         sys.exit(1)
 
     cmd = sys.argv[1]
@@ -629,7 +629,7 @@ def main():
 
         print("Training file created")
         print(
-            f"use `python fine_tune_function_calling.py {cmd}` create a fine tuned model")
+            f"use `python main.py {cmd}` create a fine tuned model")
         return
 
     if cmd == 'test':
