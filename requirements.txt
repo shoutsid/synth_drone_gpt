@@ -1,0 +1,3 @@
+openai>1
+tenacity
+numpy
